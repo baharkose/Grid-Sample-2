@@ -147,35 +147,18 @@ a:visited{
     background-color: #fff;
 }
 
-.sections{
-    display:flex;
-    justify-content: space-between; 
-    align-items: flex-start;
-    gap: 1rem;
-  }
-.shoes{
-    width: 300px;
-    height:auto;
-
+.blog{
+    display:grid;
+    grid-template-columns: 250px 1fr 1fr;
+    align-items: start;
+    column-gap: 40px;
 }
-.left-section{
-    width: calc(33.333% - 3rem/2);
-
-    
-}
-.middle-section{
-    width: calc(33.333% - 3rem/2);
-    padding: 1rem;
-        
+.header{
+    grid-column: 1/-1;
 }
 
 
-.right-section{
-    width: calc(33.333% - 3rem/2);  
-    padding: 1rem;
-  
-}
 
 .buy-button{
-    width: 100%;
+    grid-column: 1/-1;
 }
