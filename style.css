@@ -1,0 +1,181 @@
+*{
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5em;
+    font-size: 14px;
+
+
+}
+body{
+    position:relative;
+    height: 100vh;
+    margin-top:50px;
+}
+
+.blog{
+    border: 4px solid black;
+    width: 875px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+  
+}
+
+.blog::before{
+    content: "SALE";
+    background-color:red;
+    font-size: 14px;
+    display: inline-block;
+    padding: 5px 24px;
+
+    top:-20px;
+    left:-40px;
+    position: absolute;
+    color: white;
+    /* font-weight:bold; */
+}
+
+.header{
+    width: 100%;
+
+}
+h1{
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+h2{
+    font-size:16px;
+    text-transform: uppercase;
+
+}
+.page-header{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #f7f7f7;
+}
+ul{
+    margin-left:20px;
+    margin-top: 25px;
+    list-style-type: square;
+    /* display: inline-block;
+    line-height:1.5em ; */
+    /* list-style-position: inside; */
+}
+li{
+    margin-bottom: 3px;  
+}
+
+.price{
+    font-weight: 900;
+    float: left;
+    font-size: 25px;
+    /* font-size: px; */
+}
+
+.free{
+    text-transform: uppercase;
+    padding-top:5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #777;
+    float: right;
+
+}
+
+.clearfix{
+    clear: both;
+    margin-top: 60px;
+    
+}
+
+.kutu{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 20px;
+}
+
+.kutu1{
+    background-color: black;
+    margin-left: 0px;
+
+}
+
+
+.kutu3{
+    background-color: blue;
+}
+.kutu4{
+    background-color: red;
+}
+.kutu5{
+    background-color: yellow;
+}
+.kutu6{
+    background-color: green;
+
+}
+.kutu2{
+    background-color: brown;
+}
+
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+.btn{
+    border: none;
+    background-color: #000;
+    color: white;
+    width: 100%;
+    height: 55px;
+
+    font-size:24px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color:black;
+    background-color: #fff;
+}
+
+.sections{
+    display:flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    gap: 1rem;
+  }
+.shoes{
+    width: 300px;
+    height:auto;
+
+}
+.left-section{
+    width: calc(33.333% - 3rem/2);
+
+    
+}
+.middle-section{
+    width: calc(33.333% - 3rem/2);
+    padding: 1rem;
+        
+}
+
+
+.right-section{
+    width: calc(33.333% - 3rem/2);  
+    padding: 1rem;
+  
+}
+
+.buy-button{
+    width: 100%;
+}
